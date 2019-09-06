@@ -3,10 +3,11 @@
 
 let userScore =0;
 let computerScore =0;
-const computerScore_div=document.getElementById("playerLosses");
-const playerSore_div= document.getElementById("playerWins");
-const playerDraws=document.getElementById("playerDraws");
-const scoreBoard=document.querySelector(".scoreboard");
+let draws=0;
+const computerScore_span=document.getElementById("losses");
+const playerSore_span= document.getElementById("wins");
+let playerDraws_span=document.getElementById("draws");
+const scoreBoard=document.getElementById("playerWins");
 const rock = document.getElementById("r");
 const paper = document.getElementById("p");
 const scissors = document.getElementById("s");
@@ -22,18 +23,24 @@ function game(userChoice) {
   // console.log(computerChoice);
    //console.log(userChoice);
 function win(userChoice,computerChoice) {
-
+    userScore++
    console.log("Win")
 
+    playerSore_span.innerHTML=userScore;
+
+//scoreBoard.innerHTML = "You Win!"
 }
 
 function lose(userChoice,computerChoice) {
-
+    computerScore++
+    computerScore_span.innerHTML=computerScore;
     console.log("LOST")
 
 }
 function draw(userChoice,computerChoice) {
-    
+
+   draws++
+    playerDraws_span.innerHTML=draws;
     console.log("DRAW")
 
 }
