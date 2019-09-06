@@ -21,6 +21,22 @@ function game(userChoice) {
     const computerChoice = getComputerChoice();
   // console.log(computerChoice);
    //console.log(userChoice);
+function win(userChoice,computerChoice) {
+
+   console.log("Win")
+
+}
+
+function lose(userChoice,computerChoice) {
+
+    console.log("LOST")
+
+}
+function draw(userChoice,computerChoice) {
+    
+    console.log("DRAW")
+
+}
     switch (userChoice + computerChoice) {
 
         case "rs":
@@ -28,21 +44,23 @@ function game(userChoice) {
         case "sp":
 
         case "pr":
-
-    console.log("User Wins")
+            win();
+            // console.log("User Wins")
             break;
 
         case "rp":
         case "sr":
         case "ps":
-            console.log("User loses")
+         lose();
+          //console.log("User loses")
          break;
 
 
         case "rr":
         case "pp":
         case "ss":
-            console.log("Its Draw")
+           draw();
+            // console.log("Its Draw")
             break;
 
     }
