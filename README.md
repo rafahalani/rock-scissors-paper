@@ -1,6 +1,8 @@
 
 # Title: Rock scissors paper
-https://rafahalani.github.io/rock-scissors-paper/
+
+click to play : https://rafahalani.github.io/rock-scissors-paper/rock-game.html
+
 - Repository: `rock-scissors-paper`
 - Type of Challenge: `Learning Challenge`
 - Duration: take your time
