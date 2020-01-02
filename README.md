@@ -1,6 +1,6 @@
 
 # Title: Rock scissors paper
-file:///home/rafah/Desktop/becode_project/rock-scissors-paper/rock-game.html
+https://rafahalani.github.io/rock-scissors-paper/
 - Repository: `rock-scissors-paper`
 - Type of Challenge: `Learning Challenge`
 - Duration: take your time
